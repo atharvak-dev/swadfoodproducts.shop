@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage - highest priority -->
+  <url>
+    <loc>https://swadfoodproducts.shop/</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Products page - high priority -->
+  <url>
+    <loc>https://swadfoodproducts.shop/products</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Join Us / Partner page -->
+  <url>
+    <loc>https://swadfoodproducts.shop/join-us</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 
+    TODO: Add individual product pages when you implement them
+    Example:
+    <url>
+      <loc>https://swadfoodproducts.shop/products/goda-masala</loc>
+      <lastmod>2026-01-30</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  -->
+  
+  <!--
+    TODO: Add Golden Definition / Heritage pages when created
+    Example:
+    <url>
+      <loc>https://swadfoodproducts.shop/heritage/goda-masala-science</loc>
+      <lastmod>2026-01-30</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  -->
+</urlset>

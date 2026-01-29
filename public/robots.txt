@@ -1,0 +1,22 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow cart and checkout pages from indexing
+Disallow: /cart
+
+# Sitemap location
+Sitemap: https://swadfoodproducts.shop/sitemap.xml
+
+# Crawl delay (be gentle with the server)
+Crawl-delay: 1
+
+# Block common bots that waste bandwidth
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
