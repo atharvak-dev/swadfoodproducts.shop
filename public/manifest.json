@@ -1,7 +1,7 @@
 {
     "name": "Swad Food Products",
     "short_name": "Swad",
-    "description": "Authentic Maharashtrian Spices & Traditional Ladoos from Pune",
+    "description": "Order Authentic Maharashtrian Spices & Traditional Ladoos from Pune",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#FFFBF5",
