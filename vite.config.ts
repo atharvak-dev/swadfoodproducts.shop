@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   esbuild: {
-    drop: ['console', 'debugger'],
+    // drop: ['console', 'debugger'],
   },
   build: {
     rollupOptions: {
@@ -12,7 +12,7 @@ export default defineConfig({
         manualChunks: {
           'react-vendor': ['react', 'react-dom', 'react-router-dom'],
           'motion': ['framer-motion'],
-          'icons': ['lucide-react']
+          // 'icons': ['lucide-react'] // Let tree-shaking handle this
         }
       }
     },
