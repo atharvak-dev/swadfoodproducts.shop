@@ -209,167 +209,166 @@ export function AmboliGuide() {
                             </div>
                         </div>
 
-                    </div>
-                    <div className="mb-8 mt-8">
-                        <img
-                            src="https://placehold.co/1000x400/065f46/ffffff?text=Fermentation+Timeline+(0hr+-+4hr+-+8hr)"
-                            alt="Fermentation Journey: 0hrs -> 4hrs -> 8hrs"
-                            className="w-full rounded-xl shadow-lg border border-emerald-50"
-                        />
-                    </div>
-                    {/* Ingredient Table */}
-                    <div className="mt-8 overflow-x-auto shadow-sm rounded-lg border border-stone-200">
-                        <table className="w-full text-left bg-white text-sm md:text-base">
-                            <thead className="bg-emerald-50 text-emerald-900 font-bold">
-                                <tr>
-                                    <th className="p-4 border-b">Ingredient</th>
-                                    <th className="p-4 border-b">% Blend</th>
-                                    <th className="p-4 border-b">Role</th>
-                                </tr>
-                            </thead>
-                            <tbody className="divide-y divide-emerald-50">
-                                <tr>
-                                    <td className="p-4 font-medium">Parboiled Rice (Ukda Tandul)</td>
-                                    <td className="p-4">65-70%</td>
-                                    <td className="p-4">Carb source for bacteria; structure</td>
-                                </tr>
-                                <tr>
-                                    <td className="p-4 font-medium">Urad Dal (Black Gram)</td>
-                                    <td className="p-4">20-25%</td>
-                                    <td className="p-4">Protein; mucilage traps gas bubbles</td>
-                                </tr>
-                                <tr>
-                                    <td className="p-4 font-medium">Fenugreek (Methi)</td>
-                                    <td className="p-4">1-2%</td>
-                                    <td className="p-4">Aids fermentation; flavor complexity</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                {/* Section 3: Recipe */}
-                <section className="mb-12 bg-white shadow-lg rounded-2xl overflow-hidden border border-blue-100">
-                    <div className="bg-blue-600 p-6 text-white">
-                        <h2 className="text-2xl font-bold flex items-center">
-                            <Utensils className="w-6 h-6 mr-3" />
-                            Classic Konkani Amboli Recipe
-                        </h2>
-                    </div>
-                    <img
-                        src="https://placehold.co/800x600/2563eb/ffffff?text=Finished+Amboli+Stack"
-                        alt="Stack of 3 Amboli with coconut chutney, sol kadhi in glass"
-                        className="w-full h-64 md:h-96 object-cover"
-                    />
-                    <div className="p-8">
-                        <div className="prose prose-stone max-w-none">
-                            <div className="flex flex-col md:flex-row gap-8">
-                                <div className="flex-1">
-                                    <h3 className="text-lg font-bold text-blue-900">Ingredients</h3>
-                                    <ul className="list-disc pl-5">
-                                        <li>2 cups Swad Amboli Pith</li>
-                                        <li>2.5 cups water</li>
-                                        <li>Salt (if needed)</li>
-                                        <li>1 tsp sugar (optional, feeds bacteria)</li>
-                                    </ul>
-                                </div>
-                                <div className="flex-1">
-                                    <h3 className="text-lg font-bold text-blue-900">Process</h3>
-                                    <ol className="list-decimal pl-5 space-y-2">
-                                        <li><strong>Mix:</strong> Whisk Pith and water to a thick pancake batter consistency.</li>
-                                        <li><strong>Ferment:</strong> Leave in a warm spot for 4-6 hours. Look for bubbles/rise.</li>
-                                        <li>
-                                            <strong>Cook:</strong> Pour on greased tava. Do not spread thin like dosa! Keep it 5mm thick.
-                                            <img
-                                                src="https://placehold.co/800x500/2563eb/dbeafe?text=Pouring+Action"
-                                                alt="Pouring batter onto hot tava, creating circular Amboli"
-                                                className="my-3 rounded-lg shadow-sm w-full h-40 object-cover"
-                                            />
-                                        </li>
-                                        <li><strong>Steam:</strong> Cover with lid. Cook 2-3 mins until fluffy.</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                {/* Section 4: Serving Suggestions */}
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center">
-                        <Utensils className="w-8 h-8 mr-3 text-emerald-600" />
-                        How to Serve
-                    </h2>
-                    <div className="bg-white p-6 rounded-lg border border-emerald-100 shadow-sm">
-                        <p className="mb-4 text-stone-700 text-lg">
-                            In Konkan homes, Amboli is never eaten alone. It acts as a sponge for flavorful wet curries.
-                        </p>
-                        <div className="grid md:grid-cols-2 gap-6">
-                            <div>
-                                <h4 className="font-bold text-emerald-900 mb-2">Vegetarian Pairings</h4>
-                                <ul className="list-disc pl-5 text-stone-600 space-y-1">
-                                    <li>With <Link to="/products?search=chutney" className="text-emerald-700 hover:underline font-medium">Coconut Chutney</Link> (Oli Chutney)</li>
-                                    <li>With Kala Vatana Sambar (Black Pea Curry)</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h4 className="font-bold text-emerald-900 mb-2">Non-Veg Pairings</h4>
-                                <ul className="list-disc pl-5 text-stone-600 space-y-1">
-                                    <li>With Malvani Chicken Curry</li>
-                                    <li>With Egg Curry (Anda Masala)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                {/* Section 5: FAQ */}
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
-                    <div className="space-y-4">
-                        <div className="bg-white p-6 rounded-lg shadow-sm border border-stone-100">
-                            <h3 className="font-bold text-lg mb-2 text-emerald-900">Amboli vs Thalipeeth?</h3>
-                            <p className="text-stone-600">
-                                Amboli is fermented (rice+dal) and soft like a pancake. <Link to="/knowledge/thalipeeth-bhajani-complete-guide" className="text-emerald-700 hover:underline">Thalipeeth</Link> is made from roasted multigrain flour and is savory/nutty.
-                            </p>
-                        </div>
-                        <div className="bg-white p-6 rounded-lg shadow-sm border border-stone-100">
-                            <h3 className="font-bold text-lg mb-2 text-emerald-900">Similar to Kokani Wade?</h3>
-                            <p className="text-stone-600">
-                                Yes, both use Urad pulse fermentation base! <Link to="/knowledge/kokani-wade-vada-coastal-maharashtra-guide" className="text-emerald-700 hover:underline">Kokani Wade</Link> are deep-fried fritters, whereas Amboli is pan-cooked.
-                            </p>
-                        </div>
-                        <div className="bg-white p-6 rounded-lg shadow-sm border border-stone-100">
-                            <h3 className="font-bold text-lg mb-2 text-emerald-900">My batter didn't ferment. Why?</h3>
-                            <p className="text-stone-600">Likely too cold (&lt;20°C) or chlorinated water. Try putting it in a turned-off oven with the light on.</p>
-                        </div>
-                    </div>
-                </section>
-
-                {/* CTA */}
-                <div className="bg-emerald-900 text-emerald-50 rounded-2xl p-8 md:p-12 text-center relative overflow-hidden">
-                    <div className="relative z-10">
-                        <h2 className="text-3xl font-serif font-bold mb-4">Start Your Fermentation Journey</h2>
-                        <p className="text-lg md:text-xl text-emerald-200 mb-8 max-w-2xl mx-auto">
-                            Experience the magic of microbes. Authentic, stone-ground, and pre-cultured for success.
-                        </p>
-                        <div className="flex flex-col md:flex-row justify-center gap-4">
-                            <Link to="/products?product=amboli-pith" className="bg-white text-emerald-900 px-8 py-3 rounded-full font-bold hover:bg-emerald-50 transition-colors">
-                                Shop Amboli Pith
-                            </Link>
+                        <div className="mb-8 mt-8">
                             <img
-                                src="https://placehold.co/400x400/transparent/png?text=Amboli+Pack"
-                                alt="Swad Amboli Pith packet"
-                                className="w-32 h-32 md:w-48 md:h-48 object-contain bg-white rounded-lg p-2 shadow-2xl transform -rotate-3"
+                                src="https://placehold.co/1000x400/065f46/ffffff?text=Fermentation+Timeline+(0hr+-+4hr+-+8hr)"
+                                alt="Fermentation Journey: 0hrs -> 4hrs -> 8hrs"
+                                className="w-full rounded-xl shadow-lg border border-emerald-50"
                             />
                         </div>
-                        <p className="text-sm text-emerald-400 mt-6 tracking-wider uppercase">Makes 12-15 Amboli per pack</p>
-                    </div>
-                    <Waves className="absolute -bottom-10 -right-10 text-emerald-800 w-64 h-64 opacity-20" />
-                </div>
+                        {/* Ingredient Table */}
+                        <div className="mt-8 overflow-x-auto shadow-sm rounded-lg border border-stone-200">
+                            <table className="w-full text-left bg-white text-sm md:text-base">
+                                <thead className="bg-emerald-50 text-emerald-900 font-bold">
+                                    <tr>
+                                        <th className="p-4 border-b">Ingredient</th>
+                                        <th className="p-4 border-b">% Blend</th>
+                                        <th className="p-4 border-b">Role</th>
+                                    </tr>
+                                </thead>
+                                <tbody className="divide-y divide-emerald-50">
+                                    <tr>
+                                        <td className="p-4 font-medium">Parboiled Rice (Ukda Tandul)</td>
+                                        <td className="p-4">65-70%</td>
+                                        <td className="p-4">Carb source for bacteria; structure</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="p-4 font-medium">Urad Dal (Black Gram)</td>
+                                        <td className="p-4">20-25%</td>
+                                        <td className="p-4">Protein; mucilage traps gas bubbles</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="p-4 font-medium">Fenugreek (Methi)</td>
+                                        <td className="p-4">1-2%</td>
+                                        <td className="p-4">Aids fermentation; flavor complexity</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
 
-            </article>
-        </main >
+                    {/* Section 3: Recipe */}
+                    <section className="mb-12 bg-white shadow-lg rounded-2xl overflow-hidden border border-blue-100">
+                        <div className="bg-blue-600 p-6 text-white">
+                            <h2 className="text-2xl font-bold flex items-center">
+                                <Utensils className="w-6 h-6 mr-3" />
+                                Classic Konkani Amboli Recipe
+                            </h2>
+                        </div>
+                        <img
+                            src="https://placehold.co/800x600/2563eb/ffffff?text=Finished+Amboli+Stack"
+                            alt="Stack of 3 Amboli with coconut chutney, sol kadhi in glass"
+                            className="w-full h-64 md:h-96 object-cover"
+                        />
+                        <div className="p-8">
+                            <div className="prose prose-stone max-w-none">
+                                <div className="flex flex-col md:flex-row gap-8">
+                                    <div className="flex-1">
+                                        <h3 className="text-lg font-bold text-blue-900">Ingredients</h3>
+                                        <ul className="list-disc pl-5">
+                                            <li>2 cups Swad Amboli Pith</li>
+                                            <li>2.5 cups water</li>
+                                            <li>Salt (if needed)</li>
+                                            <li>1 tsp sugar (optional, feeds bacteria)</li>
+                                        </ul>
+                                    </div>
+                                    <div className="flex-1">
+                                        <h3 className="text-lg font-bold text-blue-900">Process</h3>
+                                        <ol className="list-decimal pl-5 space-y-2">
+                                            <li><strong>Mix:</strong> Whisk Pith and water to a thick pancake batter consistency.</li>
+                                            <li><strong>Ferment:</strong> Leave in a warm spot for 4-6 hours. Look for bubbles/rise.</li>
+                                            <li>
+                                                <strong>Cook:</strong> Pour on greased tava. Do not spread thin like dosa! Keep it 5mm thick.
+                                                <img
+                                                    src="https://placehold.co/800x500/2563eb/dbeafe?text=Pouring+Action"
+                                                    alt="Pouring batter onto hot tava, creating circular Amboli"
+                                                    className="my-3 rounded-lg shadow-sm w-full h-40 object-cover"
+                                                />
+                                            </li>
+                                            <li><strong>Steam:</strong> Cover with lid. Cook 2-3 mins until fluffy.</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    {/* Section 4: Serving Suggestions */}
+                    <section className="mb-12">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center">
+                            <Utensils className="w-8 h-8 mr-3 text-emerald-600" />
+                            How to Serve
+                        </h2>
+                        <div className="bg-white p-6 rounded-lg border border-emerald-100 shadow-sm">
+                            <p className="mb-4 text-stone-700 text-lg">
+                                In Konkan homes, Amboli is never eaten alone. It acts as a sponge for flavorful wet curries.
+                            </p>
+                            <div className="grid md:grid-cols-2 gap-6">
+                                <div>
+                                    <h4 className="font-bold text-emerald-900 mb-2">Vegetarian Pairings</h4>
+                                    <ul className="list-disc pl-5 text-stone-600 space-y-1">
+                                        <li>With <Link to="/products?search=chutney" className="text-emerald-700 hover:underline font-medium">Coconut Chutney</Link> (Oli Chutney)</li>
+                                        <li>With Kala Vatana Sambar (Black Pea Curry)</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 className="font-bold text-emerald-900 mb-2">Non-Veg Pairings</h4>
+                                    <ul className="list-disc pl-5 text-stone-600 space-y-1">
+                                        <li>With Malvani Chicken Curry</li>
+                                        <li>With Egg Curry (Anda Masala)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    {/* Section 5: FAQ */}
+                    <section className="mb-12">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+                        <div className="space-y-4">
+                            <div className="bg-white p-6 rounded-lg shadow-sm border border-stone-100">
+                                <h3 className="font-bold text-lg mb-2 text-emerald-900">Amboli vs Thalipeeth?</h3>
+                                <p className="text-stone-600">
+                                    Amboli is fermented (rice+dal) and soft like a pancake. <Link to="/knowledge/thalipeeth-bhajani-complete-guide" className="text-emerald-700 hover:underline">Thalipeeth</Link> is made from roasted multigrain flour and is savory/nutty.
+                                </p>
+                            </div>
+                            <div className="bg-white p-6 rounded-lg shadow-sm border border-stone-100">
+                                <h3 className="font-bold text-lg mb-2 text-emerald-900">Similar to Kokani Wade?</h3>
+                                <p className="text-stone-600">
+                                    Yes, both use Urad pulse fermentation base! <Link to="/knowledge/kokani-wade-vada-coastal-maharashtra-guide" className="text-emerald-700 hover:underline">Kokani Wade</Link> are deep-fried fritters, whereas Amboli is pan-cooked.
+                                </p>
+                            </div>
+                            <div className="bg-white p-6 rounded-lg shadow-sm border border-stone-100">
+                                <h3 className="font-bold text-lg mb-2 text-emerald-900">My batter didn't ferment. Why?</h3>
+                                <p className="text-stone-600">Likely too cold (&lt;20°C) or chlorinated water. Try putting it in a turned-off oven with the light on.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    {/* CTA */}
+                    <div className="bg-emerald-900 text-emerald-50 rounded-2xl p-8 md:p-12 text-center relative overflow-hidden">
+                        <div className="relative z-10">
+                            <h2 className="text-3xl font-serif font-bold mb-4">Start Your Fermentation Journey</h2>
+                            <p className="text-lg md:text-xl text-emerald-200 mb-8 max-w-2xl mx-auto">
+                                Experience the magic of microbes. Authentic, stone-ground, and pre-cultured for success.
+                            </p>
+                            <div className="flex flex-col md:flex-row justify-center gap-4">
+                                <Link to="/products?product=amboli-pith" className="bg-white text-emerald-900 px-8 py-3 rounded-full font-bold hover:bg-emerald-50 transition-colors">
+                                    Shop Amboli Pith
+                                </Link>
+                                <img
+                                    src="https://placehold.co/400x400/transparent/png?text=Amboli+Pack"
+                                    alt="Swad Amboli Pith packet"
+                                    className="w-32 h-32 md:w-48 md:h-48 object-contain bg-white rounded-lg p-2 shadow-2xl transform -rotate-3"
+                                />
+                            </div>
+                            <p className="text-sm text-emerald-400 mt-6 tracking-wider uppercase">Makes 12-15 Amboli per pack</p>
+                        </div>
+                        <Waves className="absolute -bottom-10 -right-10 text-emerald-800 w-64 h-64 opacity-20" />
+                    </div>
+
+                </article>
+            </main>
         </>
     );
 }
