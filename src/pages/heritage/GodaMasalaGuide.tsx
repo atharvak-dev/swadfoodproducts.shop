@@ -206,41 +206,7 @@ export function GodaMasalaGuide() {
                         </div>
                     </section>
 
-                    {/* Section 4: The Process - Chakki vs. Modern */}
-                    <section className="mb-12">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                            The Grinding Truth: Chakki vs. Machine
-                        </h2>
-                        <div className="grid md:grid-cols-2 gap-8 items-center">
-                            <div className="prose prose-lg prose-amber text-gray-700">
-                                <p className="mb-4">
-                                    The method of grinding is as critical as the ingredients themselves.
-                                </p>
-                                <p className="mb-4">
-                                    <strong>The Problem with High-Speed Mixers:</strong> Modern pulverizers run at 2000+ RPM, generating immense heat (often &gt;60°C). This heat "cooks" the delicate volatile oils in coriander and cumin before you even use them, resulting in a flat, bitter powder.
-                                </p>
-                                <p className="mb-4">
-                                    <strong>The Chakki Advantage:</strong> Traditional stone grinding (Chakki) moves slowly (approx. 80-100 RPM). The heavy granite stones crush the spices using friction and weight rather than cutting them. This low-temperature process (Cold Grinding) ensures:
-                                </p>
-                                <ul className="list-disc pl-5 space-y-2 mt-2 font-medium">
-                                    <li>Essential oils remains intact (Flavor preservation)</li>
-                                    <li>Texture is slightly coarse (Better mouthfeel)</li>
-                                    <li>Molecular integrity of spices survives</li>
-                                </ul>
-                            </div>
-                            <div className="bg-gray-100 rounded-2xl h-80 flex items-center justify-center p-4">
-                                {/* Placeholder for Chakki Image */}
-                                <div className="text-center text-gray-500">
-                                    <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gray-200 border-4 border-white shadow-inner flex items-center justify-center">
-                                        <span className="text-4xl">🪨</span>
-                                    </div>
-                                    <p className="font-serif italic">"Slow Food requires Slow Grinding"</p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    {/* Section 5: How to Use - Culinary Applications */}
+                    {/* Section 4: How to Use - Culinary Applications */}
                     <section className="mb-12 bg-amber-50 rounded-3xl p-8 border border-amber-200">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">
                             Culinary Application: Beyond Bhaji
@@ -264,14 +230,18 @@ export function GodaMasalaGuide() {
                                         <li>Simmer for 5 mins to let the aroma bloom. Garnish with coriander.</li>
                                     </ol>
                                 </div>
-                                <div className="md:w-1/3 bg-gray-50 rounded-lg flex items-center justify-center">
-                                    <span className="text-6xl">🍲</span>
+                                <div className="md:w-1/3 bg-gray-50 rounded-lg flex items-center justify-center overflow-hidden">
+                                    <img
+                                        src="/Masale-Bhat.jpg"
+                                        alt="Authentic Puneri Amti made with Goda Masala"
+                                        className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform duration-500"
+                                    />
                                 </div>
                             </div>
                         </div>
                     </section>
 
-                    {/* Section 6: FAQ Section */}
+                    {/* Section 5: FAQ Section */}
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
                         <div className="space-y-4">
@@ -311,7 +281,7 @@ export function GodaMasalaGuide() {
                         </div>
                     </section>
 
-                    {/* Section 7: The Swad Difference */}
+                    {/* Section 6: The Swad Difference */}
                     <section className="mb-12 py-10 border-t border-gray-200">
                         <div className="text-center max-w-2xl mx-auto">
                             <h2 className="text-2xl font-serif font-bold text-gray-900 mb-4">Why Choose Swad's Goda Masala?</h2>
@@ -328,7 +298,7 @@ export function GodaMasalaGuide() {
                         </div>
                     </section>
 
-                    {/* Section 8: References */}
+                    {/* Section 7: References */}
                     <footer className="text-sm text-gray-500 border-t border-gray-200 pt-8 pb-4">
                         <h4 className="font-bold mb-2 uppercase tracking-wide text-xs">References & Further Reading</h4>
                         <ul className="space-y-1">

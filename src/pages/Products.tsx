@@ -192,7 +192,7 @@ export function Products() {
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: '100%', opacity: 0 }}
                 transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-                className="bg-white rounded-3xl max-w-2xl w-full max-h-[80vh] md:max-h-[90vh] overflow-y-auto"
+                className="bg-white rounded-3xl max-w-2xl w-full max-h-[80vh] md:max-h-[90vh] overflow-y-auto hide-scrollbar"
                 onClick={(e) => e.stopPropagation()}
               >
                 <div className="p-6">
@@ -206,7 +206,7 @@ export function Products() {
                         {selectedProduct.name}
                       </h2>
                       {selectedProduct.fullDescription ? (
-                        <div className="space-y-4 text-gray-600 mt-4 h-64 overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-orange-200">
+                        <div className="space-y-4 text-gray-600 mt-4 h-64 overflow-y-auto pr-2 hide-scrollbar">
                           {selectedProduct.fullDescription.split('## ').map((section, idx) => {
                             if (!section.trim()) return null;
                             const [title, ...content] = section.split('\n');

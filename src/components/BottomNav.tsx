@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Home, ShoppingBag, ShoppingCart, User } from 'lucide-react';
+import { Home, ShoppingBag, ShoppingCart, User, BookOpen } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { cn } from '../lib/utils';
 
@@ -13,6 +13,7 @@ interface NavItem {
 const NAV_ITEMS: NavItem[] = [
     { path: '/', label: 'Home', icon: Home },
     { path: '/products', label: 'Shop', icon: ShoppingBag },
+    { path: '/knowledge', label: 'Learn', icon: BookOpen },
     { path: '/cart', label: 'Cart', icon: ShoppingCart },
     { path: '/join-us', label: 'Join', icon: User },
 ];

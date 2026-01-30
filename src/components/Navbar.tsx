@@ -10,6 +10,7 @@ import { cn } from '../lib/utils';
 const NAV_LINKS = [
   { path: '/', label: 'Home' },
   { path: '/products', label: 'Shop' },
+  { path: '/knowledge', label: 'Knowledge' },
   { path: '/join-us', label: 'Partner With Us' },
 ] as const;
 

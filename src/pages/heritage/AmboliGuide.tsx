@@ -176,9 +176,9 @@ export function AmboliGuide() {
                             The Science of Fermentation
                         </h2>
                         <img
-                            src="https://placehold.co/800x500/10b981/ffffff?text=Microscopy+Visual+(LAB+Bacteria)"
+                            src="/fermentation.png"
                             alt="Illustrated diagram of LAB bacteria"
-                            className="w-full h-48 object-cover rounded-lg mb-8 shadow-sm"
+                            className="w-full h-auto object-cover rounded-lg mb-8 shadow-sm"
                         />
                         <div className="grid md:grid-cols-2 gap-8">
                             <div className="bg-white p-6 rounded-xl border border-emerald-100 shadow-sm">
@@ -209,13 +209,6 @@ export function AmboliGuide() {
                             </div>
                         </div>
 
-                        <div className="mb-8 mt-8">
-                            <img
-                                src="https://placehold.co/1000x400/065f46/ffffff?text=Fermentation+Timeline+(0hr+-+4hr+-+8hr)"
-                                alt="Fermentation Journey: 0hrs -> 4hrs -> 8hrs"
-                                className="w-full rounded-xl shadow-lg border border-emerald-50"
-                            />
-                        </div>
                         {/* Ingredient Table */}
                         <div className="mt-8 overflow-x-auto shadow-sm rounded-lg border border-stone-200">
                             <table className="w-full text-left bg-white text-sm md:text-base">
@@ -256,7 +249,7 @@ export function AmboliGuide() {
                             </h2>
                         </div>
                         <img
-                            src="https://placehold.co/800x600/2563eb/ffffff?text=Finished+Amboli+Stack"
+                            src="/amboli-knowledge.webp"
                             alt="Stack of 3 Amboli with coconut chutney, sol kadhi in glass"
                             className="w-full h-64 md:h-96 object-cover"
                         />
@@ -280,7 +273,7 @@ export function AmboliGuide() {
                                             <li>
                                                 <strong>Cook:</strong> Pour on greased tava. Do not spread thin like dosa! Keep it 5mm thick.
                                                 <img
-                                                    src="https://placehold.co/800x500/2563eb/dbeafe?text=Pouring+Action"
+                                                    src="/pouring.jpg"
                                                     alt="Pouring batter onto hot tava, creating circular Amboli"
                                                     className="my-3 rounded-lg shadow-sm w-full h-40 object-cover"
                                                 />

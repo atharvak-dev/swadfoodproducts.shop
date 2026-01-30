@@ -17,6 +17,7 @@ const ThalipeethGuide = lazy(() => import('./pages/heritage/ThalipeethGuide').th
 const KolhapuriGuide = lazy(() => import('./pages/heritage/KolhapuriVsMalvani').then(m => ({ default: m.KolhapuriVsMalvaniGuide })));
 const AmboliGuide = lazy(() => import('./pages/heritage/AmboliGuide').then(m => ({ default: m.AmboliGuide })));
 const KokaniWadeGuide = lazy(() => import('./pages/heritage/KokaniWadeGuide').then(m => ({ default: m.KokaniWadeGuide })));
+const Knowledge = lazy(() => import('./pages/Knowledge').then(m => ({ default: m.Knowledge })));
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
                     <Route path="/products" element={<Products />} />
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/join-us" element={<JoinUs />} />
+                    <Route path="/knowledge" element={<Knowledge />} />
                     <Route path="/knowledge/goda-masala" element={<GodaMasalaGuide />} />
                     <Route path="/knowledge/thalipeeth-bhajani-complete-guide" element={<ThalipeethGuide />} />
                     <Route path="/knowledge/kolhapuri-vs-malvani" element={<KolhapuriGuide />} />
