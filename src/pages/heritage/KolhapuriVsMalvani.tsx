@@ -69,9 +69,9 @@ export function KolhapuriVsMalvaniGuide() {
             <JsonLd schema={articleSchema} />
             <JsonLd schema={faqSchema} />
 
-            <main className="min-h-screen bg-orange-50 font-sans text-gray-800">
+            <main className="min-h-screen bg-orange-50 font-sans text-gray-800 pt-24">
                 {/* Breadcrumb */}
-                <nav className="bg-white border-b border-orange-200 py-4 px-4 sticky top-16 z-10 md:top-20">
+                <nav className="bg-white border-b border-orange-200 py-4 px-4 sticky top-[64px] lg:top-[80px] z-10">
                     <div className="max-w-4xl mx-auto flex items-center text-sm text-gray-500">
                         <Link to="/" className="hover:text-orange-700">Home</Link>
                         <span className="mx-2">/</span>
